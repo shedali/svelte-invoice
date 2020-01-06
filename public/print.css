@@ -1,0 +1,39 @@
+#invoice fieldset {
+    border: 0;
+}
+
+hr {
+    display: none;
+}
+
+.debug, #configure {
+    display: none;
+}
+
+
+fieldset {
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+#invoice {
+    font-family: "Gelasio", serif;
+    width: 800px;
+    margin: 0 auto;
+    font-size:1.5em;
+}
+
+.totals {
+    text-align: right;
+}
+
+.footer {
+    font-size:10px;
+    color: grey;
+}
+
+.itemised {
+    min-height:400px;
+    border: 1px solid rgb(0,0,0,0.1);
+}
